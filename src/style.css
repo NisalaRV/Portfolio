@@ -75,3 +75,15 @@ section{
 .btn:hover{
     background: var(--hover);
 }
+.social{
+    display: flex;
+    flex-direction: column;
+}
+.social a{
+    margin-bottom: 1rem;
+    font-size: 30px;
+    color: var(--text-color);
+}
+.social a:hover{
+    color: var(--hover);
+}
