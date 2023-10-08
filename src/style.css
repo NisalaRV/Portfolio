@@ -33,7 +33,7 @@ section{
     color: var(--bg-color);
     background: var(--main-color);
 }
-/*=================*/
+/*=============Home============*/
 .home{
     position: relative;
     width: 100%;
@@ -87,7 +87,7 @@ section{
 .social a:hover{
     color: var(--hover);
 }
-/*about*/
+/*=============About============*/
 .heading
 {text-align: center;
 }
