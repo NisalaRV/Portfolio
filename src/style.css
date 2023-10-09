@@ -176,3 +176,23 @@ color:rgb(2, 166, 70);
 .services-box:hover p{
     color: #8b8a8f ;
 }
+
+/*=============Project============*/
+.project-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.project-img{
+    overflow: hidden;
+    border-radius: 0.6rem;
+}
+.project-img img{
+    width: 100%;
+    display: block;
+}
+
+.project-img img:hover{
+    transform: scale(1.1);
+}
