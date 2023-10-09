@@ -177,22 +177,53 @@ color:rgb(2, 166, 70);
     color: #8b8a8f ;
 }
 
-/*=============Project============*/
-.project-content{
+/*!*=============Project============*!*/
+/*.project-content{*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(auto-fit,minmax(300px,auto));*/
+/*    gap: 1rem;*/
+/*    margin-top: 2rem;*/
+/*}*/
+/*.project-img{*/
+/*    overflow: hidden;*/
+/*    border-radius: 0.6rem;*/
+/*}*/
+/*.project-img img{*/
+/*    width: 100%;*/
+/*    display: block;*/
+/*}*/
+
+/*.project-img img:hover{*/
+/*    transform: scale(1.1);*/
+/*}*/
+
+/*.btn:hover{*/
+/*    background: var(--hover);*/
+/*}*/
+
+/*=============certificate============*/
+.certificate-content{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,auto));
     gap: 1rem;
     margin-top: 2rem;
 }
-.project-img{
-    overflow: hidden;
+.certificate-img{
     border-radius: 0.6rem;
+    box-shadow: #0f0c27;
 }
-.project-img img{
+.certificate-img img{
     width: 100%;
     display: block;
-}
 
-.project-img img:hover{
+}
+.certificate-img img:hover{
     transform: scale(1.1);
 }
+
+#btn2
+{
+    margin-left: 500px;
+
+}
+
