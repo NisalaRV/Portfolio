@@ -375,3 +375,77 @@ form textarea{
 .contact-button:hover{
     background: var(--hover);
 }
+/*=============contact section End============*/
+/*=============footer section start ============*/
+.footer{
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    background: #ebebeb;
+    color: #000;
+}
+.footer h2{
+    font-size: 1.5rem;
+    margin-bottom: 1.6rem;
+}
+.footer-social a i{
+    color:#fff ;
+    font-size: 25px;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 40px;
+    background-color:  #2213D3;
+    border-radius: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.copyright{
+    padding: 20px;
+    background: var(--main-color);
+    text-align: center;
+    color: #fff;
+}
+
+.copyright a{
+    color: #22cf91;
+}
+
+.footer-social i:hover{
+    background: var(--hover);
+    /*background: #22cf91;;*/
+}
+
+
+/*body {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    min-height: 100vh;*/
+/*    background-color: #f0f0f0;*/
+/*}*/
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.image {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    box-shadow: #0000001A;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
