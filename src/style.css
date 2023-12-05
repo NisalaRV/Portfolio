@@ -99,7 +99,8 @@ color: var(--hover);
     font-weight: 500;
 }
 .home-text h1{
-    font-size: var(--medium-font );
+    /*font-size: var(--medium-font );*/
+    font-size: 50px;
 }
 .home .home-text h2{
     font-size: 1.1rem;
@@ -135,6 +136,7 @@ color: var(--hover);
 /*=============About============*/
 .heading
 {text-align: center;
+    margin-top: 2rem;
 }
 .heading h2{
 font-size: 30px;
@@ -146,8 +148,9 @@ color:rgb(2, 166, 70);
 .about-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
+    gap: 3rem;
     margin-top: 2rem;
+    margin-bottom: 5rem;
 }
 
 .about-img img{
@@ -272,6 +275,10 @@ color:rgb(2, 166, 70);
 #btn2
 {
     margin-left: 500px;
+    /*position: center;*/
+    position: absolute;
+    margin-top: 5px;
+
 
 }
 
@@ -352,6 +359,7 @@ color:rgb(2, 166, 70);
     opacity: 1;
 }
 .project-model-body{
+
     position: relative;
     background: #fff;
     max-width: 600px;
@@ -526,7 +534,8 @@ img {
         display: flex;
         flex-direction: column;
         background: var(--bg-color);
-        box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
+        /*box-shadow: 0 4px 4px rgb(0 0 0 / 10%);*/
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
         transition: 0.2s ease;
         text-align: center;
     }
@@ -560,9 +569,9 @@ img {
         display: flex;
         justify-content: center;
     }
-    /*.services-content{*/
-    /*    grid-template-columns: repeat(auto-fill,minmax(200px,auto));*/
-    /*}*/
+    .services-content{
+        grid-template-columns: repeat(auto-fill,minmax(300px,auto));
+    }
     .contact-form form{
         width: 300px;
     }
@@ -603,4 +612,31 @@ img {
 body.active{
     --text-color: #fff;
     --bg-color: #0f0c27;
+}
+
+
+#typewriter-text {
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 24px;
+    /*border-right: 2px solid #000;*/
+    animation: typing 1s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #000;
+    }
 }
