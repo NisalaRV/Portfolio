@@ -12,8 +12,8 @@ projectImgs.forEach((projectImg,i) =>{
     });
 });
 
-projectCloseBtns.forEach((projectCloseBtns)=> {
-    projectCloseBtns.addEventListener("click", () => {
+projectCloseBtns.forEach((projectCloseBtn)=> {
+    projectCloseBtn.addEventListener("click", () => {
         projectModals.forEach((projectModalView) => {
             projectModalView.classList.remove("active");
         });

@@ -229,58 +229,59 @@ color:rgb(2, 166, 70);
 }
 
 /*!*=============Project============*!*/
-/*.project-content{*/
-/*    display: grid;*/
-/*    grid-template-columns: repeat(auto-fit,minmax(300px,auto));*/
-/*    gap: 1rem;*/
-/*    margin-top: 2rem;*/
-/*}*/
-/*.project-img{*/
-/*    overflow: hidden;*/
-/*    border-radius: 0.6rem;*/
-/*}*/
-/*.project-img img{*/
-/*    width: 100%;*/
-/*    display: block;*/
-/*}*/
-
-/*.project-img img:hover{*/
-/*    transform: scale(1.1);*/
-/*}*/
-
-/*.btn:hover{*/
-/*    background: var(--hover);*/
-/*}*/
-
-/*=============certificate============*/
-.certificate-content{
+.project-content{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,auto));
     gap: 1rem;
     margin-top: 2rem;
 }
-.certificate-img{
+.project-img{
+    overflow: hidden;
     border-radius: 0.6rem;
-    box-shadow: #0f0c27;
 }
-.certificate-img img{
+.project-img img{
     width: 100%;
+    height: 250px;
     display: block;
-
 }
-.certificate-img img:hover{
+
+.project-img img:hover{
     transform: scale(1.1);
 }
 
-#btn2
-{
-    margin-left: 500px;
-    /*position: center;*/
-    position: absolute;
-    margin-top: 5px;
-
-
+.btn:hover{
+    background: var(--hover);
 }
+
+/*!*=============certificate============*!*/
+/*.certificate-content{*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(auto-fit,minmax(300px,auto));*/
+/*    gap: 1rem;*/
+/*    margin-top: 2rem;*/
+/*}*/
+/*.certificate-img{*/
+/*    border-radius: 0.6rem;*/
+/*    box-shadow: #0f0c27;*/
+/*}*/
+/*.certificate-img img{*/
+/*    width: 100%;*/
+/*    display: block;*/
+
+/*}*/
+/*.certificate-img img:hover{*/
+/*    transform: scale(1.1);*/
+/*}*/
+
+/*#btn2*/
+/*{*/
+/*    margin-left: 500px;*/
+/*    !*position: center;*!*/
+/*    position: absolute;*/
+/*    margin-top: 5px;*/
+
+
+/*}*/
 
 /*project*/
 .project .project-content{
@@ -483,7 +484,7 @@ form textarea{
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
     max-width: 500px;
-    margin: 0 auto;
+    margin: 5px auto;
 }
 
 .image {
@@ -497,6 +498,8 @@ img {
     height: auto;
     display: block;
 }
+
+
 /*=============skills section End ============*/
 /*=============Responsive start ============*/
 @media (max-width: 991px){
@@ -579,6 +582,12 @@ img {
         margin-left: 25%;
     }
 }
+@media (max-width: 425px) {
+    #backbtn,
+    #nextbtn {
+        display: none;
+    }
+}
 
 @media (max-width: 340px) {
     :root{
@@ -605,6 +614,17 @@ img {
     .contact-button{
         margin-left: 25%;
     }
+    #backbtn,
+    #nextbtn {
+        display: none;
+    }
+    .Language{
+        font-size: 10px;
+    }
+    .Tools{
+        font-size: 10px;
+    }
+
 
 }
 
