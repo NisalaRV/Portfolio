@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b06c517-671c-4b6e-adf9-c82cf961a228" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assetes/images/img/portpolio.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assetes/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assetes/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assetes/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assetes/scripts/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,11 +39,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../reactone" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assetes/images/img" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Portfolio\assetes\images\img" />
       <recent name="D:\Portfolio\assetes\images\img\gallery" />
       <recent name="D:\Portfolio\assetes\images\img\gallery'" />
     </key>
@@ -65,7 +66,8 @@
       <workItem from="1702055836343" duration="15266000" />
       <workItem from="1702177913278" duration="620000" />
       <workItem from="1702194663290" duration="3366000" />
-      <workItem from="1702225401201" duration="5214000" />
+      <workItem from="1702225401201" duration="10593000" />
+      <workItem from="1702286564808" duration="8166000" />
     </task>
     <servers />
   </component>
